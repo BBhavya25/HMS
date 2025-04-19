@@ -1,0 +1,76 @@
+.room-management {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: black;
+}
+
+.room-management form {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.room-management input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.room-management select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.room-management button {
+  padding: 8px 12px;
+  background-color: #136116;
+  color: white;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.room-management button:hover {
+  background-color: #7d977e;
+}
+
+.filter-section {
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.status-available {
+  color: green;
+  font-weight: bold;
+}
+
+.status-occupied {
+  color: red;
+  font-weight: bold;
+}
+
+.status-maintenance {
+  color: orange;
+  font-weight: bold;
+}
+
+th{
+  color: black;
+}
